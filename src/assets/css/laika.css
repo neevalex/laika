@@ -1,0 +1,189 @@
+.body {
+	clear: both;
+}
+
+.site-content.page {
+
+	& h1 {
+		font-family: Oswald;
+		font-weight: 300;
+		font-size: 55px;
+		color: #0d3646;
+		margin-bottom: 20px;
+	}
+
+	& h2 {
+		font-family: Roboto;
+		font-weight: 300;
+		font-size: 22px;
+		color: #333333;
+		line-height: 1.6em;
+	}
+
+	& h3 {
+		font-weight: 300;
+		font-family: Oswald;
+		font-size: 36px;
+		color: #0d3646;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+
+	& h4 {
+		Font-weight: 300;
+		font-family: Oswald;
+		color: #444444;
+		font-style: normal;
+		font-size: 28px;
+		line-height: 1.4em;
+	}
+
+	& h5 {
+		font-weight: 300;
+		font-family: Roboto;
+		font-size: 18px;
+		color: #333333;
+		line-height: 1.6em;
+	}
+
+	& .sitesmart-ul {
+		font-family: Roboto;
+		font-size: 15px;
+		line-height: 1.8em;
+		color: rgb(0, 121, 170);
+		padding-left: 20px;
+
+		& a {
+			color: rgb(0, 121, 170);
+		}
+
+		& strong {
+			color: rgb(0, 121, 170);
+		}
+	}
+
+	& .bluetriangle img {
+		max-height: 20px;
+	}
+
+	& .bluebuttons {
+		& h4 {
+			width: 31%;
+			float: left;
+			padding: 40px 30px;
+			border: 1px solid #666666;
+			margin: 1%;
+			min-height: 110px;
+
+			@media (--responsive-start) {
+                width: 100%;
+				margin: 0;
+				margin-bottom: 30px;
+            }
+
+			& a {
+				font-weight: 300;
+				font-family: Oswald;
+
+				font-style: normal;
+				font-size: 28px;
+			}
+
+		}
+	}
+
+
+
+	& .titleboxes {
+		& .vc_column-inner {
+			min-height: 500px;
+			display: flex;
+			align-items: center;
+			align-content: center;
+			width: 100%;
+			justify-content: center;
+
+			& .wpb_raw_html {
+				background: #00000080;
+				padding: 30px 50px;
+				max-width: 500px;
+
+				& h2 {
+					font-family: Roboto;
+					font-weight: 300;
+					font-size: 22px;
+					margin-bottom: 20px;
+				}
+			}
+		}
+	}
+
+	& .titlerow {
+		& .vc_column-inner {
+			& .wpb_raw_html {
+				max-width: 800px;
+			}
+		}
+	}
+
+
+
+	& .object-2075 {
+		background-color: #eeeeee;
+		padding: 20px 30px;
+
+		& td {
+			font-family: Arial;
+			font-size: 14px;
+			line-height: 1.8em;
+			font-weight: 400;
+			color: #666666;
+			min-width: 150px;
+		}
+	}
+}
+
+
+
+.wpcf7-form {
+	& .wpcf7-form-control-wrap {
+		float: left;
+		width: 50%;
+		padding: 0px;
+
+		& input {
+			width: 90%;
+			color: #666666;
+			border-type: solid;
+			border: 1px solid #dddddd;
+			padding: 15px;
+			margin: 15px 0px;
+			display: inline-block;
+		}
+	}
+
+	& .wpcf7-form-control-wrap.your-message {
+		width: 100%;
+		padding: 0;
+
+		& textarea {
+			margin-top: 20px;
+			border: 1px solid #dddddd;
+			width: 100%;
+			padding: 15px;
+		}
+	}
+
+	& .wpcf7-form-control.wpcf7-submit {
+display: inline-block;
+		background-color: #0079aa;
+		margin-top: 10px;
+		padding: 15px;
+		font-family: Arial;
+		font-size: 15px;
+		font-weight: 300;
+		color: #ffffff;
+		border: 0px solid #000000;
+		border-radius: 8px;
+	}
+}

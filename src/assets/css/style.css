@@ -1,0 +1,20 @@
+/*
+Theme Name: Laika.se
+Theme URI: https://github.com/neevalex/laika
+Author: Neev Alex
+Author URI: https://neevalex.com
+Description: Laika.SE official theme.
+Version: 1.0
+Tags: responsive, clean, minimal, modern, documentation
+*/
+
+@import url('//fonts.googleapis.com/css?family=Roboto:300,400,700|Oswald:300,400,600');
+
+
+@import '../../../node_modules/normalize.css/normalize.css';
+@import '../../../node_modules/bootstrap-4-grid/css/grid.css';
+
+@import './globals.css';
+@import './header.css';
+@import './footer.css';
+@import './laika.css';
