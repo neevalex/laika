@@ -6,6 +6,7 @@
 				<h5><span style="color: rgb(191, 191, 191);">NYHETSBREV</span></h5>
 				<h3><span style="color: rgb(191, 191, 191);"><span style="color: rgb(255, 255, 255);">Prenumerera på Investerarbrevet</span></span></h3>
 				Investerarbrevet kommer ut en gång i månaden och varje nummer är fullmatat med placeringstips. Vi skriver om fonder, emissioner och annan information som investeraren har nytta av.
+				<?php echo do_shortcode('[mc4wp_form id="144"]'); ?>
 			</div>
 			<div class="col-md-6">
 				<h5><span style="color: rgb(191, 191, 191);">KONTAKTUPPGIFTER<br></span></h5>
